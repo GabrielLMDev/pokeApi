@@ -1,0 +1,198 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+/*INICIO ESTILOS BUSQUEDA*/
+.container {
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn.buscar {
+  background-color: #ffcc00;
+  margin-right: 10px;
+}
+
+.btn.aleatorio {
+  background-color: #0099cc;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/*FIN ESTILOS BUSQUEDA*/
+
+/*INICIO ESTILOS PERFIL*/
+.profile {
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.profile-header {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffcc00;
+  color: #fff;
+
+}
+
+.profile-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header h1 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.profile-header p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.profile-details {
+  padding: 30px;
+}
+
+.profile-details h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-details li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #555;
+}
+
+.profile-details li strong {
+  margin-right: 5px;
+  color: #333;
+}
+
+/*FIN ESTILOS PERFIL*/
+
+/* Estilos para el Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 0% auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.show {
+  color: #000;
+  float: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.show:hover,
+.show:focus {
+  color: rgb(92, 89, 89);
+  text-decoration: none;
+  cursor: pointer;
+}
+/* DETALLES MODAL*/
+.details {
+  max-width: 600px;
+  border-radius: 15px;
+  overflow: hidden;
+}
